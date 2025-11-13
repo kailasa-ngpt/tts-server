@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+numpy
+soundfile
+python-dotenv
+pydantic
+python-multipart
+
+# Core model/inference stack (match ref notebooks)
+transformers==4.52.3
+# unsloth
+# unsloth_zoo
+datasets
+accelerate
+peft
+pip3-autoremove
+
+# Note: Do NOT pin torch here; install the appropriate build for your OS/CUDA from https://pytorch.org/get-started/locally/
